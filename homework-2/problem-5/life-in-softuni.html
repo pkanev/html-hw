@@ -4,12 +4,28 @@
 		<title>Life in SoftUni</title>
 		<style>
 			td {
-				font-family: "Verdana";
 				height: 50px;
 			}
-			.nested {
-				font-size: 0.8em;
+			
+			button {
+				font-family: "Verdana";
+				font-weight: bold;
+				width: 100%;
+				height: 100%;
+				color: blue;
 			}
+			.nestedButton {
+				font-size: 0.5em;
+				font-weight: normal;
+			}
+			.nestedCells {
+				height: 25px;
+			}
+			
+			.left {
+				margin-left: 65%;
+			}
+			
 		</style>
 	</head>
 	<body>
@@ -20,34 +36,34 @@
 				<col width="80px"></col>
 				<col width="80px"></col>
 			</colgroup>
-			<tr><td colspan="4" align="center"><h1>SoftUni LIFE</h1></td></tr>
+			<tr><td colspan="4"><button type="button" name="Softuni" onclick="location.href='https://softuni.bg/'"><h3>SOFTWARE UNIVERSITY</h3></button></td></tr>
 			<tr>
-				<td colspan="2" align="left" valign="top">Google</td>
-				<td colspan="2" align="right" valign="top">GitHub</td>
+				<td colspan="2"><button type="button" name="google" onclick="location.href='https://www.google.bg/'">Google</button></td>
+				<td colspan="2"><button type="button" name="github" onclick="location.href='https://github.com/'">GitHub</button></td>
 			</tr>
 			<tr>
-				<td align="center" valign="top">FB</td>
-				<td align="left" valign="middle">GMail</td>
-				<td align="center" valign="bottom">YouTube</td>
-				<td align="left" valign="middle">2048</td>
+				<td><button type="button" name="fb" onclick="location.href='http://facebook.com'">FB</button></td>
+				<td><button type="button" name="gmail" onclick="location.href='https://mail.google.com'">GMail</button></td>
+				<td><button type="button" name="youtube" onclick="location.href='http://youtube.com'">YouTube</button></td>
+				<td><button type="button" name="2048" onclick="location.href='http://2048game.com/'">2048</button></td>
 			</tr>
 			<tr>
-				<td align="right" valign="bottom">Food</td>
-				<td colspan="2" align="left" valign="bottom">Game</td>
+				<td><button type="button" name="food" onclick="location.href='http://www.facebook.com/smugglersdiner'">Food</button></td>
+				<td colspan="2"><button type="button" name="game" onclick="location.href='http://store.steampowered.com/'">Game</button></td>
 				<td>
-					<table border="1px solid #000" width="80px" class="nested">
+					<table border="1px solid #000" width="80px">
 						<tr>
-							<td align="center" valign="middle">Social Life</td>
+							<td class="nestedCells"><button class="nestedButton" type="button" name="socialLife" onclick="location.href='http://www.ultimate-guitar.com/'">Social Life</button></td>
 						</tr>
 						<tr>
-							<td align="center" valign="middle">Sleep</td>
+							<td class="nestedCells"><button  class="nestedButton" type="button" name="sleep" onclick="location.href='http://en.wikipedia.org/wiki/The_Lord_of_the_Rings'">Sleep</button></td>
 						</tr>
 					</table>
 				</td>
 			</tr>
 			<tr>
-				<td colspan="3"  align="right" valign="middle">Beer &gt;</td>
-				<td align="left" valign="middle">wc</td>
+				<td colspan="3"><button type="button" name="beer" ><div class="left" onclick="location.href='http://www.knijff.com/markmatters/wp-content/uploads/2012/03/duff-beer.png'">Beer &gt;&gt;&gt;</div></button></td>
+				<td><button type="button" name="wc" onclick="location.href='http://www.parliament.bg/'">WC</button></td>
 			</tr>
 		</table>
 	</body>
