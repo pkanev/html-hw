@@ -3,6 +3,9 @@
 	<head>
 		<title>Life in SoftUni: Keyboard</title>
 		<style>
+			table, td {
+				border: 1px solid #000;
+			}
 			td {
 				height: 50px;
 			}
@@ -13,6 +16,13 @@
 				width: 100%;
 				height: 100%;
 				color: blue;
+			}
+			
+			.col {
+				width: 80px;
+			}
+			.small {
+				width: 80px;
 			}
 			.nestedButton {
 				font-size: 0.5em;
@@ -26,17 +36,21 @@
 				margin-left: 65%;
 			}
 			
+			#soft {
+				font-size: 1.2em;
+			}
+			
 		</style>
 	</head>
 	<body>
-		<table border="1px solid #000">
+		<table>
 			<colgroup>
-				<col width="80px"></col>
-				<col width="80px"></col>
-				<col width="80px"></col>
-				<col width="80px"></col>
+				<col class="col"/>
+				<col class="col"/>
+				<col class="col"/>
+				<col class="col"/>
 			</colgroup>
-			<tr><td colspan="4"><button type="button" name="Softuni" onclick="location.href='https://softuni.bg/'"><h3>SOFTWARE UNIVERSITY</h3></button></td></tr>
+			<tr><td colspan="4"><button id="soft" type="button" name="Softuni" onclick="location.href='https://softuni.bg/'">SOFTWARE UNIVERSITY</button></td></tr>
 			<tr>
 				<td colspan="2"><button type="button" name="google" onclick="location.href='https://www.google.bg/'">Google</button></td>
 				<td colspan="2"><button type="button" name="github" onclick="location.href='https://github.com/'">GitHub</button></td>
@@ -51,7 +65,7 @@
 				<td><button type="button" name="food" onclick="location.href='http://www.facebook.com/smugglersdiner'">Food</button></td>
 				<td colspan="2"><button type="button" name="game" onclick="location.href='http://store.steampowered.com/'">Game</button></td>
 				<td>
-					<table border="1px solid #000" width="80px">
+					<table class="small">
 						<tr>
 							<td class="nestedCells"><button class="nestedButton" type="button" name="socialLife" onclick="location.href='http://www.ultimate-guitar.com/'">Social Life</button></td>
 						</tr>
@@ -62,7 +76,7 @@
 				</td>
 			</tr>
 			<tr>
-				<td colspan="3"><button type="button" name="beer" ><div class="left" onclick="location.href='http://www.knijff.com/markmatters/wp-content/uploads/2012/03/duff-beer.png'">Beer &gt;&gt;&gt;</div></button></td>
+				<td colspan="3"><button type="button" name="beer" onclick="location.href='http://www.knijff.com/markmatters/wp-content/uploads/2012/03/duff-beer.png'"><span class="left">Beer &gt;&gt;&gt;</span></button></td>
 				<td><button type="button" name="wc" onclick="location.href='http://www.parliament.bg/'">WC</button></td>
 			</tr>
 		</table>
