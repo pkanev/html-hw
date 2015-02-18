@@ -1,0 +1,116 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 0.6em;
+}
+
+img{
+    padding: 2px 3px 0 3px;
+    vertical-align: bottom;
+}
+
+table{
+	border: solid 1px #000;
+	background-color: #000;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+th {
+    height: 37px;
+    background-color: #F8C711;
+}
+
+tr:nth-child(even) {background-color: #FFF;}
+tr:nth-child(odd) {background-color: #C8C8C8;}
+
+thead tr:first-child th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+thead tr:first-child th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+	-moz-border-radius: 0 0 0 10px;
+	-webkit-border-radius: 0 0 0 10px;
+}
+
+tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+	-moz-border-radius: 0 0 10px 0;
+	-webkit-border-radius: 0 0 10px 0;
+}
+
+td{
+    height: 37px;
+}
+
+#holder{
+    background-color: #00923E;
+    width: 625px;
+    padding: 10px;
+}
+
+.country{
+    width: 105px;
+}
+
+.result{
+    width: 67px;
+    text-align:center;
+}
+
+.score{
+    width: 70px;
+    padding-top: 5px;
+}
+
+.guess{
+    display:block;
+    background-color: #DCDCDC;
+    color: green;
+    width: 19px;
+    height: 20px;
+    float: left;
+    padding-top: 8px;
+    padding-left: 2px;
+    margin-left: 3px;
+    text-align:left;
+}
+
+.over {
+    color: red;
+}
+
+.dash{
+    display:block;
+    float:left;
+    width: 5px;
+    height:20px;
+    padding-top: 8px;
+    margin-left: 2px;
+    text-align: center;
+}
+
+.picker {
+	margin-bottom: 5px;
+}
+
+.bet{
+    width: 35px;
+}
+
+.country-left {
+    text-align:right;
+    padding-right: 5px;
+}
+
+.country-right {
+    text-align:left;
+    padding-left: 5px;
+}

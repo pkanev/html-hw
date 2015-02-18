@@ -1,5 +1,5 @@
 div {
-	border: 1px solid #000;
+	border: 2px solid #000;
 }
 
 #head {
@@ -14,16 +14,70 @@ div {
 	height: 80px;
 	background-color: #fff;
 	border-radius: 50%;
+	position: absolute;
 }
 
 #left-eye {
-	position: absolute;
-	margin-left: 75px;
-	margin-top: 100px;
+	left: 80px;
+	top: 100px;
 }
 
-#left-eye {
+#right-eye {
+	left: 236px;
+	top: 100px;
+}
+
+#left-pupil, #right-pupil {
+	width: 21px;
+	height: 21px;
+	border-radius: 50%;
+	background-color:#000;
+	position: relative;
+}
+
+#left-pupil {
+	top: 42px;
+	left: 42px;
+}
+
+#right-pupil{
+	top: 0;
+	left: 0;
+}
+
+#nose {
+	width:62px;
+	height: 62px;
+	border-radius: 50%;
+	background-color: #FF0000;
 	position: absolute;
-	margin-left: 275px;
-	margin-top: 100px;
+	top: 167px;
+	left: 167px;
+}
+
+#mouth {
+	height: 80px;
+	width: 200px;
+	background-color: #fff;
+	position: absolute;
+	top: 250px;
+	left: 98px;
+	border-radius: 2em ;
+}
+
+#left-tooth, #right-tooth {
+	width: 40px;
+	height: 40px;
+	background-color: #fff;
+	border-radius: 0 0 0.5em 0.5em;
+	position: absolute;
+	top: -1px;
+}
+
+#left-tooth {
+	left:59px;
+}
+
+#right-tooth {
+	left: 102px;
 }
