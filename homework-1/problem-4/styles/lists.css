@@ -1,0 +1,30 @@
+div{
+	border: 1px solid;
+    border-radius: 25px;
+	width: 300px;
+	padding: 15px;
+}
+
+p, ol, ul {
+    font-family: "Arial", sans;
+}
+
+ol.upper-roman {
+list-style-type: upper-roman;
+}
+
+ol.decimal {
+list-style-type: decimal;
+}
+ 
+ul.a {
+    list-style-type: circle;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+ul.c {
+	list-style-type: disc;
+}

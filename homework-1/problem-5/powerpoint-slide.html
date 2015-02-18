@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PowerPoint Slide</title>
+		<style>
+			body {
+				background-image: url("images/background.png");
+				background-repeat: no-repeat;
+				font-family: "Verdana";
+			}
+			#heading {
+				margin-top: 100px;
+				margin-left: 50px;
+			}
+			h1 {
+				font-size: 3em; 
+				color: #F3BE60;
+			}
+			#lists {
+				width: 1225px;
+				margin-left: 75px;
+			}
+			ul {
+				list-style-type: square;
+				color: #F3BE60;
+				font-size: 2em;
+			}
+			.white{
+				color: white;
+			}
+			.yellow {
+				color: #EBC65D;
+			}
+			.sublist {
+				border: 2px solid #605D54;
+				margin: 15px 0px 15px 15px;				
+				padding: 0px;
+				color: #F9ECC7;
+				background-color: rgba(255, 255, 255, .15);
+			}
+			.list {
+				margin: 0;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="heading">
+			<h1>Headings and Paragraphs</h1>
+		</div>
+		<div id="lists">
+			<ul>
+				<li><div class="white">Heading Tags: <span class="yellow">&lt;H1&gt;</span> &ndash; <span class="yellow">&lt;H6&gt;</span></div>
+					<div class="sublist">
+					<p class="list">&lt;h1&gt;Heading 1&lt;/h1&gt;<br>
+						&lt;h2&gt;Sub heading 2&lt;/h2&gt;<br>
+						&lt;h3&gt;Sub heading 3&lt;/h3&gt;</p>
+					</div>
+				</li>
+				<li><div class="white">Paragraph Tags: <span class="yellow">&lt;p&gt;</span></div>
+					<div class="sublist">
+						<p class="list">&lt;p&gt;This is my first paragraph&lt;/p&gt;<br>
+						&lt;p&gt;This is my second paragraph&lt;/p&gt;</p>
+					</div>
+				</li>
+				<li><div class="white">Sections: <span class="yellow">&lt;div&gt;</span> and <span class="yellow">&lt;span&gt;</span></div>
+						<div class="sublist">
+						<p class="list">&lt;div style="background: skyblue;"&gt;<br>
+						This is a div<br>
+						&lt;/div&gt;</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
