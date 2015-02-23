@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Styling a HTML Form</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<form action="#" method="post" class="blue-trans">
+		<fieldset>
+		<legend>Step 1: Your details</legend>
+		<label for="name"><span>Name</span><input type="text" id="name" placeholder="First and last name" name="name"></label>
+		<label for="email"><span>Email</span><input type="email" id="email" placeholder="example@domain.com" name="email"></label>
+		<label for="phone"><span>Phone</span><input type="text" id="phone" placeholder="eg. +447500000000" name="phone"></label>
+		</fieldset>
+		<fieldset>
+		<legend>Step 1: Delivery address</legend>
+		<label for="address"><span>Address</span><textarea id="address" name="address"></textarea></label>
+		<label for="post-code"><span>Post code</span><input id="post-code" type="text" value="" name="post-code"></label>
+		<label for="country"><span>Country</span><input id="country" type="text" value="" name="country"></label>
+		</fieldset>
+		<fieldset>
+		<legend>Step 1: Card details</legend>
+		<div id="cards"><p>Card type</p><input class="radio" type="radio" name="card-type" value="visa"><span class="card" id="visa">VISA</span><input class="radio" type="radio" name="card-type" value="am-ex"><span class="card" id="amex">AmEx</span><input class="radio" type="radio" name="card-type" value="master-card"><span class="card" id="mc">Mastercard</span></div>
+		<label for="card-number"><span>Card number</span><input id="card-number" type="text" value="" name="card-number"></label>
+		<label for="security"><span>Security code</span><input id="security" type="text" value="" name="security"></label>
+		<label for="card-holder"><span>Name on card</span><input id="card-holder" type="text" placeholder="exact name as on the card" name="card-holder"></label>
+		</fieldset>
+		<input type="button" class="button" value="BUY IT!">
+	</form>
+</body>
+</html>

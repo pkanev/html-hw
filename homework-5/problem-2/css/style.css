@@ -1,0 +1,31 @@
+@font-face {
+    font-family: animated;
+    src: url('../fonts/animated.ttf');
+}
+body{
+	font-family: animated;
+	margin: 0;
+	padding: 0;
+}
+#photo{
+	width: 900px;
+	height: 580px;
+	background-image: url('../images/VladoKHula.png'), url('../images/AlexHula.png'), url('../images/TediHula.png'), url('../images/PetiaHula.png'), url('../images/NakovHula.png'), url('../images/VladoGHula.png'), url('../images/HawaiiBackground.png'), radial-gradient(ellipse farthest-corner at 150px 125px, rgba(255,255,255,1) 1%, rgba(249,249,93,1) 7%, rgba(252,252,169,1) 10%, rgba(255,255,255,1) 15%, rgba(129,197,246,1) 25%, rgba(0,109,219,1) 100%);
+	background-color: #0f88dc;
+	background-position: 645px 220px, 465px 190px, 250px 325px, 185px 180px, 390px 140px, 40px 200px, 0px 0px, 0px 0px;
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+	border:hidden;
+}
+#title{
+	width: 425px;
+	top: 25px;
+	left: 450px;
+	position:absolute;
+}
+h1 {
+	color: #febc20;
+	font-weight:normal;
+	font-size:3em;
+	margin: 0;
+	padding: 0;
+}
