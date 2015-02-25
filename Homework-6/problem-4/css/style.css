@@ -1,0 +1,106 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.fakebook{
+	width:700px;
+	padding: 15px;
+	background-color:#3B5997;
+	color: #fff;
+	font-family: Calibri, sans-serif;
+	box-sizing: border-box;
+	display: block;
+}
+
+.fakebook h1{
+	font-size:8em;
+	font-weight:bold;
+	text-align:center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.fakebook h2, .fakebook h3{
+	font-size:2em;
+	text-align:center;
+	margin:5px;
+}
+
+.fakebook legend, .fakebook label {
+	font-weight: bold;
+}
+
+.non-required {
+	width: 270px;
+	height: 250px;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 12px;
+	vertical-align:top;
+	border-radius: 1em;
+}
+.text-field{
+	width: 110px;
+	height: 18px;
+	display: inline-block;
+}
+
+.dob label, .required .strange label, .required .more-info label  {
+	display: block;
+}
+.dob #birtday{
+	height: 18px;
+	display: block;
+}
+
+.non-required .radio {
+	width: 205px;
+	display: block;
+}
+
+.non-required .radio label {
+	margin-right: 3px;
+}
+
+.required {
+	width: 380px;
+	height: 250px;
+	display: inline-block;
+	box-sizing: border-box;
+	padding-top: 12px;
+	padding-left: 6px;
+	vertical-align: top;
+	border-radius: 1em;
+}
+
+.required .num-field {
+	width: 50px;
+}
+
+.required .strange select {
+	width: 100px;
+}
+
+.required textarea {
+	width: 100%;
+	height: 70px;
+	resize: none;
+}
+
+.fakebook .reset {
+	width: 273px;
+	height: 50px;
+	margin-top: 25px;
+	color: #3B5997;
+	font-weight: bold;
+	font-size:1.3em;
+}
+
+.fakebook .submit {
+	width: 383px;
+	height: 50px;
+	margin-top: 25px;
+	color: #3B5997;
+	font-weight: bold;
+	font-size:1.3em;
+}

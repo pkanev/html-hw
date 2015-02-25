@@ -1,0 +1,118 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Calibri, sans-serif;
+	color:#6e5f6c;
+}
+#left{
+	display:inline-block;
+	width: 600px;
+	padding:0;
+	vertical-align: top;
+}
+
+#left h1 {
+	margin-top:50px;
+	margin-left: 25px;
+}
+
+#left form {
+	display:inline-block;
+	width: 185px;
+	margin: 5px;
+}
+
+#left form  button{
+	color:#2c425a;
+	width: 100%;
+	margin: 0;
+	background-color: rgba(98,189, 238, .2);
+	border: 1px solid rgb(98,189, 238);
+	border-radius: 1em;
+	padding-right:0;
+	box-sizing: border-box;
+}
+
+#left form button:hover {
+	background-color: rgba(98,189, 238, .8);
+}
+
+#left form button .title {
+	margin: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	display:block;
+}
+
+#left form button .sub{
+	font-size: 1.3em;
+	margin:0;
+}
+
+#left form button .price {
+	display: block;
+	background-color: #2c425a;
+	color:#fff;
+	border-radius: 1em 0 1em 0;
+	width: 60%;
+	height: 25px;
+	overflow:hidden;
+	position: relative;
+	right: -71px;
+	bottom: -2px;
+	padding-top: 10px;
+}
+
+#right {
+	width: 200px;
+	display: inline-block;
+	background-color: rgba(98,189, 238, .2);
+	border: 1px solid rgb(98,189, 238);
+	border-radius: 1em;
+	padding-right:5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+	margin-top:50px;
+	vertical-align: top;
+}
+
+#right label {
+	text-align:center;
+	margin-top:15px;
+	display: block;
+}
+
+#right .lt {
+	margin-left: 5px;
+	display:inline-block;
+	float: left;
+}
+
+#right .rt{
+	margin-right: 5px;
+	display:inline-block;
+	float: right;
+}
+#right input {
+	clear: both;
+	width: 180px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
