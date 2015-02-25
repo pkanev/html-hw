@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flight Order</title>
+	<meta charset="utf-8" />
+	<link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+	<main>
+		<form class="flight-order" action="#" method="POST">
+			<header>
+				<h1>FLIGHT ORDER</h1>
+			</header>
+			<div class="cities">
+				<label for="origin" >From</label>
+				<label for="destination">To</label>
+				<select name="origin" id="origin">
+					<option value="0" selected="selected">Enter a city</option>
+					<option value="1">Sofia</option>
+					<option value="2">Plovdiv</option>
+					<option value="3">Varna</option>
+				</select>
+				<select name="destination" id="destination">
+					<option value="0" selected="selected">Enter a city</option>
+					<option value="1">Sofia</option>
+					<option value="2">Plovdiv</option>
+					<option value="3">Varna</option>
+				</select>
+				<input type="checkbox" id="direct" name="direct" value="direct"><label id="direct-label" for="direct">Prefer directs</label>
+			</div>
+			<div class="dates">
+				<label for="departure">Departure Date</label>
+				<input type="date" id="departure" name="departure" />
+			</div>
+			<div class="times">
+				<label for="interval1">Time Interval</label>
+				<input type="time" id="interval1" name="interval1-start" />
+				<input type="time" name="interval1-end" />
+			</div>
+			<div class="dates">
+				<label for="return">Return Date</label>
+				<input type="date" id="return" name="return" />
+			</div>
+			<div class="times">
+				<label for="interval2">Time Interval</label>
+				<input type="time" id="interval2" name="interval2-start" />
+				<input type="time" name="interval2-end" />
+			</div>
+			<div class="passengers">
+				<label for="adults">12+<input type="number" name="adults" id="adults" min="0" max="10" value="0" /></label>
+				<label for="children">2-12<input type="number" name="children" id="children" min="0" max="10" value="0"/></label>
+				<label for="babies">0-2<input type="number" name="babies" id="babies" min="0" max="10" value="0"/></label>
+			</div>
+			<div class="class">
+				<label for="class">Choose class</label>
+				<select name="class" id="class">
+					<option value="1" selected="selected">Economy</option>
+					<option value="2">Business</option>
+					<option value="3">First</option>
+				</select>
+			</div>
+			<input type="submit" id="submit" name="submit" value="Search" />
+		</form>
+	</main>
+</body>
+</html>

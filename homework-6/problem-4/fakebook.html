@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fakebook Register Form</title>
+	<meta charset="utf-8" />
+	<link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+<main>
+	<form class="fakebook" action="#" method="POST">
+		<header>
+			<h1>fakebook</h1>
+			<h2>Registration</h2>
+			<h3>It is safe and it will always be!</h3>
+		</header>
+		<fieldset class="non-required">
+			<legend>Non-important information</legend>
+			<input type="text" class="text-field" name="first-name" placeholder="First Name" tabindex="1" pattern="[A-Za-z]*" title="Enter first name using Latin letters only" />
+			<input type="text" class="text-field" name="last-name" placeholder="Last Name" tabindex="10" pattern="[A-Za-z]*" title="Enter last name using Latin letters only"/>
+			<input type="email" class="text-field" name="email" placeholder="Your Email" tabindex="30"/>
+			<input type="tel" class="text-field" name="telephone" placeholder="Phone Number" tabindex="40"/>
+			<input type="password" class="text-field" name="password" placeholder="Your Password" tabindex="45"/>
+			<input type="url" class="text-field" name="website" placeholder="Website" tabindex="50"/>
+			<div class="dob">
+			<label for="birthday">Birthday</label>
+			<input type="datetime" id="birthday" tabindex="60" />
+			</div>
+			<div class="radio" >
+			<input type="radio" name="gender" id="female" value="1"  tabindex="70"/><label for="female">Female</label>
+			<input type="radio" name="gender" id="male" value="2" tabindex="70"/><label for="male">Male</label>
+			<input type="radio" name="gender" id="other" value="3" tabindex="80" /><label for="other">Other</label>
+			</div>
+		</fieldset>
+		<fieldset class="required">
+			<legend>Important information *required</legend>
+			<input list="countries" name="country" class="text-field" required="required" tabindex="90">
+			<datalist id="countries">
+			  <option value="Bulgaria">Bulgaria</option>
+			  <option value="Greece">Greece</option>
+			  <option value="Romania">Romania</option>
+			  <option value="Serbia">Serbia</option>
+			  <option value="Russia">Russia</option>
+			</datalist>
+			<input type="text" class="text-field" name="village" placeholder="Village" required="required" tabindex="100"/>
+			<input type="text" class="text-field" name="district" placeholder="District" required="required" tabindex="110"/>
+			<input type="text" class="text-field" name="street" placeholder="Street" required="required" tabindex="120"/>
+			<input type="text" class="num-field" name="number" placeholder="Nr" pattern="[0-9]*" required="required"  title="use digits only" tabindex="130"/>
+			<input type="text" class="num-field" name="floor" placeholder="Floor" pattern="[0-9]*" required="required" title="use digits only" tabindex="140" />
+			<input type="text" class="num-field" name="flat" placeholder="Ap Nr" pattern="[0-9]*" required="required" tabindex="150" title="use digits only" />
+			<div class="strange">
+				<label for="color">Door Color</label>
+				<input type="color" id="color" name="color" class="text-field" value="#ff80c1" tabindex="160"/>
+				<input type="text" class="text-field" name="water-meter" placeholder="Water meter Nr." pattern="[0-9]*" required="required" tabindex="170" title="use digits only" />
+				<select name="auntie" required="required" tabindex="180">
+				   <option value="" disabled="disabled" selected="selected">Aunt Panties' Size</option>
+				  <option value="1">Large</option>
+				  <option value="2">Super large</option>
+				  <option value="3">Super duper extra large</option>
+				</select>
+			</div>
+			<div class="more-info">
+				<label for="personal">More personal information:</label>
+				<textarea id="personal" required="required" tabindex="180">
+Give us more information!!!
+				</textarea>
+			</div>
+		</fieldset>
+		<input class="reset" type="reset" value="Clear Form" tabindex="190"/>
+		<input class="submit" type="submit" value="Register" tabindex="200" />		
+	</form>
+</main>
+</body>
+</html>
