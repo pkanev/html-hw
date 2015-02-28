@@ -1,0 +1,221 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: Arial, sans-serif;
+	background-color:#000;
+}
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+#wrapper>header{
+	padding:0;
+	width: 900px;
+	height: 270px;
+	background-image: url(../images/headerBackground.jpg);
+	background-repeat: no-repeat;
+	background-position: 0;
+	background-color: #E7E7E7;
+}
+
+#wrapper>nav {
+	display:block;
+	margin-top: 0;
+	height: 50px;
+	width:900px;
+	padding:0;
+	box-sizing: border-box;
+	background:  #E2E2E2;
+}
+
+#wrapper>nav ul {
+	padding:0;
+	margin: 0;
+	
+}
+
+#wrapper>nav ul  li{
+	list-style: none;
+	padding:0;
+	margin: 0;
+	display:block;
+	width: 125px;
+	box-sizing: border-box;
+	height: 50px;
+	float:left;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+#wrapper>nav ul  li a{
+	display: block;
+	width:125px;
+	line-height: 50px;
+	text-align:center;
+	color: #7C7B7D;
+	text-transform:uppercase;
+	text-decoration: none;
+}
+
+#wrapper>nav ul  li a:hover, #wrapper>nav ul  li a.current{
+	color:#E2E2E2;
+	background-color:#7C7B7D;
+}
+
+#wrapper aside{
+	float:right;
+	margin-right: 40px;
+	margin-top: 20px;
+	display: block;
+	width: 225px;
+}
+
+#wrapper aside #news{
+	display: block;
+	width: 225px;
+	box-sizing: border-box;
+	background: #E2E2E2;
+	border-radius: 1.2em;
+	padding: 20px;
+}
+
+#wrapper aside #messages{
+	margin-top: 25px;
+	display: block;
+	width: 225px;
+	box-sizing: border-box;
+	background: #fff;
+	border: 1px solid #E2E2E2;
+	border-radius: 1.2em;
+	padding: 20px;
+}
+
+#wrapper aside #news header h2, #wrapper aside #messages h2{
+	color:#7AB702;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:1.5em;
+	margin:0;
+	padding:0 0 25px 0;
+}
+
+#wrapper aside #news article time, #wrapper aside #messages time {
+	font-size: .8em;
+	font-weight: bold;
+}
+
+#wrapper aside #news article p, #wrapper aside #messages p{
+	font-size: 0.9em;
+	padding:0;
+	margin:0;
+	line-height: 1.1em;
+}
+
+#wrapper aside #messages p.author{
+	padding-bottom: 10px;
+}
+
+#wrapper aside #messages p.author .author-name, .bold{
+	font-weight: bold;
+}
+
+#wrapper aside #news article a, #wrapper aside #messages a {
+	color:#7AB702;
+	font-size: 0.9em;
+	padding-bottom: 10px;
+	display:block;
+}
+
+#wrapper main {
+	float:left;
+	margin-left: 40px;
+	margin-top: 20px;
+	display: block;
+	width: 595px;
+	box-sizing:border-box;
+}
+
+#wrapper main #welcome, #wrapper main #articles {
+	width: 550px;
+	box-sizing:border-box;
+	display:block;
+	border-radius:1.2em;
+	border: 1px solid #E2E2E2;
+	padding: 20px;
+}
+
+#wrapper main #welcome h2 {
+	color:#7AB702;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:1.5em;
+	margin:0;
+	padding:0 0 10px 0;
+}
+
+#wrapper main #welcome p, #wrapper main #articles article p{
+	font-size: 0.9em;
+	padding:0;
+	margin:0;
+	line-height: 1.1em;
+}
+
+#wrapper main #articles{
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+#wrapper main #articles h3 {
+	color:#7AB702;
+	text-transform:capitalize;
+	font-weight:bold;
+	font-size:1.4em;
+	margin:0;
+	padding:10px 0;
+}
+
+#wrapper main #articles article{
+	clear:both;
+}
+
+#wrapper main #articles article figure{
+	float: left;
+	margin: 0 10px 15px 0;
+	padding: 0;
+}
+
+#wrapper main #articles article .bold{
+	padding-bottom: 15px;
+}
+
+#wrapper footer {
+	display: block;
+	width: 900px;
+	height: 90px;
+	background-color: #8DC725;
+	box-sizing: border-box;
+	padding: 40px 0 0 150px;
+}
+
+#wrapper footer p {
+	font-size: 0.9em;
+	padding:0;
+	margin:0;
+	line-height: 1.1em;
+}
+
+.clearfix{
+	content: "";
+	clear:both;
+	height:0;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,107 @@
+body{
+	font-family:"PT Sans",Tahoma,sans-serif;
+	color: #3F3469;
+}
+
+.news-holder {
+	width: 1090px;
+	height: 490px;
+	display:block;
+	padding: 25px;
+	padding-left: 100px;
+	background-color: #eee;
+	box-sizing: border-box;
+}
+
+h1{
+	font-size: 1.2em;
+	margin-bottom: 5px;
+}
+
+.news-holder .news {
+	width: 280px;
+	height: 340px;
+	display: block;
+	float: left;
+	margin-right: 25px;
+	box-sizing: border-box;
+	padding: 25px;
+	background-color: #fff;
+}
+
+.news-holder .news a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #3F3469;
+	font-weight: bold;
+	font-size:0.65em;
+	display: block;
+	min-height: 30px;
+}
+
+.news-holder .news a:hover{
+	color: orange;
+}
+
+.news-holder .news time {
+	float:right;
+	font-size: 0.7em;
+}
+
+.news-holder .news p{
+	clear: both;
+	color: #666;
+	font-size: 0.7em;
+	height: 35px;
+}
+
+.news-holder .news .tags{
+	border-top: 1px solid #999;
+	display: block;
+	vertical-align: bottom;
+}
+
+.news-holder .news .tags p{
+	font-size: 0.6em;
+}
+
+.news-holder .news figure {
+	display: block;
+	padding: 15px 0 0 0;
+	margin: 0;
+	width: 230px;
+	box-sizing: border-box;
+	border-top: 1px solid #999;
+}
+
+.news-holder .news figure  img{
+	max-width: 230px;
+}
+
+.news-holder ul {
+	clear: both;
+	float: left;
+	padding:0;
+}
+
+.news-holder ul li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 3px;
+}
+
+.news-holder ul li a{
+	display: table-cell;
+	background-color: #4CA0DB;
+	width: 25px;
+	height: 25px;
+	color: #fff;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.news-holder ul li a:hover, .news-holder ul li a.current{
+	background-color: orange;
+}

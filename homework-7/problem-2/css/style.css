@@ -1,0 +1,103 @@
+footer {
+	background-color: #234465;
+	width: 960px;
+	height: 210px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	display:block;
+	color:#fff;
+	font-family:"PT Sans",Tahoma,sans-serif;
+	padding: 40px 0px 5px 30px;
+}
+
+h2 {
+	margin-top:0;
+	padding:0;
+	margin-bottom: 8px;
+	text-transform: uppercase;
+	color: orange;
+	font-weight: bold;
+	font-size: 0.7em;
+}
+
+p {
+	font-size: 0.7em;
+}
+
+footer .buttons, footer .lists, footer .about, footer .fb {
+		margin-right: 15px;
+		float: left;
+}
+
+footer .buttons{
+	width: 120px;
+}
+
+footer .buttons a {
+	width: 100%;
+	border: 1px solid orange;
+	box-sizing: border-box;
+	display: block;
+	line-height: 25px;
+	vertical-align: middle;
+	text-align: center;
+	margin-bottom: 7px;
+	color: #fff;
+	font-size: .8em;
+	text-decoration: none;
+}
+
+footer .buttons a:hover {
+	background-color: orange;
+}
+
+footer .lists{
+	width: 155px;
+	display: block;
+	box-sizing:bolder-box;
+}
+
+footer .lists ul {
+	padding: 0;
+	margin: 0;
+}
+
+footer .lists ul li {
+	margin: 0;
+	list-style: none;
+	line-height: 15px;
+}
+
+footer .lists ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 0.8em;
+}
+
+footer .lists ul li a:hover {
+	color:orange;
+}
+
+footer .about{
+	width: 200px;
+}
+
+footer .about ul {
+	margin: 0;
+	padding:0;
+}
+
+footer .about ul li {
+	list-style: none;
+	display: inline;
+}
+
+footer .about ul li a img{
+	max-width: 20px;
+}
+
+footer .fb {
+	background-color:#fff;
+	width:220px;
+	margin-right:0;
+}
