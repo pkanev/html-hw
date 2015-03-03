@@ -1,0 +1,89 @@
+body { 
+	padding-top: 70px; 
+}
+
+.navbar {
+	background-color: orange;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #000;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: tomato;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+.navbar-default .navbar-brand {
+  color: #000;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  background-color: tomato;
+  color: #666;
+}
+.navbar-default .navbar-text {
+  color: #000;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #000;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #666;
+  background-color: tomato;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #666;
+  background-color: tomato;
+}
+
+.jumbotron {
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: tomato;
+}
+
+.btn-default {
+  color: #000;
+  background-color: orange;
+  border-color: #ccc;
+}
+
+.glyphicon-forward:before {
+  content: "\e075";
+  color: tomato;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: #666;
+  background-color: tomato;
+  border-color: transparent;
+}
+
+footer {
+	margin-top: 40px;
+	border-top: 1px solid #939292;	
+	padding-top: 50px;
+}
+
+@media only screen and (max-width: 960px) {
+	
+}
+@media only screen and (max-width: 780px) { 
+	
+}
+@media only screen and (max-width: 640px) {
+	
+
+}
