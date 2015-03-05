@@ -1,0 +1,155 @@
+﻿body {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(180deg, #808080, white); }
+  body #wrapper {
+    width: 900px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid #808080;
+    background: white;
+    padding: 1em; }
+    body #wrapper header {
+      border: 1px solid #808080;
+      background: white;
+      margin-bottom: 1em; }
+      body #wrapper header h1 {
+        color: #808080;
+        font-size: 32px;
+        text-align: center;
+        font-weight: bold; }
+      body #wrapper header nav ul {
+        text-align: center; }
+        body #wrapper header nav ul li {
+          padding: 0.3em;
+          list-style: none;
+          display: inline-block;
+          background: #fff;
+          margin: 0 2em;
+          border: 1px solid #808080;
+          background: white; }
+          body #wrapper header nav ul li a {
+            color: #808080;
+            font-size: 12.8px;
+            font-weight: bold;
+            text-decoration: none; }
+          body #wrapper header nav ul li:hover {
+            background: linear-gradient(180deg, #808080, white); }
+            body #wrapper header nav ul li:hover a {
+              color: #fff; }
+    body #wrapper .linear {
+      border: 1px solid #808080;
+      background: white;
+      margin-bottom: 1em;
+      padding: 1em; }
+      body #wrapper .linear header {
+        border: none; }
+        body #wrapper .linear header h1 {
+          font-size: 16px;
+          text-decoration: underline; }
+      body #wrapper .linear article {
+        border: 1px solid #808080;
+        background: white;
+        padding: 1em;
+        margin-bottom: 1em; }
+        body #wrapper .linear article h2 {
+          font-size: 12.8px;
+          text-align: center;
+          color: #808080; }
+        body #wrapper .linear article .innerContainer {
+          display: flex;
+          justify-content: center; }
+          body #wrapper .linear article .innerContainer div {
+            width: 130px;
+            height: 130px;
+            border-radius: 15px; }
+        body #wrapper .linear article #vertical + .innerContainer .purple {
+          background: linear-gradient(180deg, #210021, #e5e5e5); }
+        body #wrapper .linear article #vertical + .innerContainer .blue {
+          background: linear-gradient(180deg, blue, #e5e5e5); }
+        body #wrapper .linear article #vertical + .innerContainer .green {
+          background: linear-gradient(180deg, #023302, #e5e5e5); }
+        body #wrapper .linear article #vertical + .innerContainer .yellow {
+          background: linear-gradient(180deg, yellow, #e5e5e5); }
+        body #wrapper .linear article #vertical + .innerContainer .orange {
+          background: linear-gradient(180deg, #e98900, #e5e5e5); }
+        body #wrapper .linear article #vertical + .innerContainer .red {
+          background: linear-gradient(180deg, red, #e5e5e5); }
+        body #wrapper .linear article #horizontal + .innerContainer .purple {
+          background: linear-gradient(90deg, #210021, #e5e5e5); }
+        body #wrapper .linear article #horizontal + .innerContainer .blue {
+          background: linear-gradient(90deg, blue, #e5e5e5); }
+        body #wrapper .linear article #horizontal + .innerContainer .green {
+          background: linear-gradient(90deg, #023302, #e5e5e5); }
+        body #wrapper .linear article #horizontal + .innerContainer .yellow {
+          background: linear-gradient(90deg, yellow, #e5e5e5); }
+        body #wrapper .linear article #horizontal + .innerContainer .orange {
+          background: linear-gradient(90deg, #e98900, #e5e5e5); }
+        body #wrapper .linear article #horizontal + .innerContainer .red {
+          background: linear-gradient(90deg, red, #e5e5e5); }
+        body #wrapper .linear article #diagonal + .innerContainer .purple {
+          background: linear-gradient(135deg, #210021, #e5e5e5); }
+        body #wrapper .linear article #diagonal + .innerContainer .blue {
+          background: linear-gradient(135deg, blue, #e5e5e5); }
+        body #wrapper .linear article #diagonal + .innerContainer .green {
+          background: linear-gradient(135deg, #023302, #e5e5e5); }
+        body #wrapper .linear article #diagonal + .innerContainer .yellow {
+          background: linear-gradient(135deg, yellow, #e5e5e5); }
+        body #wrapper .linear article #diagonal + .innerContainer .orange {
+          background: linear-gradient(135deg, #e98900, #e5e5e5); }
+        body #wrapper .linear article #diagonal + .innerContainer .red {
+          background: linear-gradient(135deg, red, #e5e5e5); }
+    body #wrapper .radial {
+      border: 1px solid #808080;
+      background: white;
+      padding: 1em;
+      margin-bottom: 1em; }
+      body #wrapper .radial header {
+        border: none; }
+        body #wrapper .radial header h1 {
+          margin-top: 0;
+          font-size: 16px;
+          text-decoration: underline; }
+      body #wrapper .radial article {
+        border: 1px solid #808080;
+        background: white;
+        padding: 1em;
+        margin-bottom: 1em; }
+        body #wrapper .radial article .innerContainer {
+          display: flex;
+          justify-content: center; }
+          body #wrapper .radial article .innerContainer div {
+            width: 130px;
+            height: 130px;
+            border: 1px solid #808080;
+            background: white;
+            border-radius: 15px; }
+          body #wrapper .radial article .innerContainer .purple {
+            background: radial-gradient(#210021, #fff); }
+          body #wrapper .radial article .innerContainer .blue {
+            background: radial-gradient(#0000ff, #fff); }
+          body #wrapper .radial article .innerContainer .green {
+            background: radial-gradient(#023302, #fff); }
+          body #wrapper .radial article .innerContainer .yellow {
+            background: radial-gradient(#ffff00, #fff); }
+          body #wrapper .radial article .innerContainer .orange {
+            background: radial-gradient(#e98900, #fff); }
+          body #wrapper .radial article .innerContainer .red {
+            background: radial-gradient(#ff0000, #fff); }
+    body #wrapper footer {
+      border: 1px solid #808080;
+      background: white;
+      padding: 1em; }
+      body #wrapper footer h3 {
+        margin-top: 0;
+        font-size: 16px;
+        text-decoration: underline;
+        font-weight: normal;
+        color: #808080;
+        text-align: center; }
+      body #wrapper footer ul li {
+        list-style: none;
+        text-align: center; }
+        body #wrapper footer ul li a {
+          color: #808080;
+          font-size: 16px;
+          text-decoration: none; }
