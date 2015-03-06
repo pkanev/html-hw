@@ -21,7 +21,7 @@ body{
 	box-sizing: border-box;
 }
 #wrapper section .gallery{
-	width: 22%;
+	width: 24%;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 	transition: 0.5s;
@@ -29,8 +29,8 @@ body{
 }
 
 #wrapper section .gallery:hover{
-	width:24%;
-	height:24%;
+	animation: shake 1s;
+	-webkit-animation: shake 1s;
 }
 
 #wrapper section .gallery a{
@@ -41,8 +41,8 @@ body{
 }
 
 #wrapper section .gallery a:focus{
-	animation: shake 3s;
-	-webkit-animation: shake 3s;
+	animation: shake-and-grow 3s;
+	-webkit-animation: shake-and-grow 3s;
 }
 
 #wrapper section figure img{
@@ -50,6 +50,35 @@ body{
 }
 
 @keyframes shake {
+	0% { transform: translate(2px, 1px) rotate(0deg); }
+	5% { transform: translate(0px, 0px) rotate(-5deg); }
+	10% { transform: translate(-1px, -2px) rotate(5deg); }
+	15% { transform: translate(0px, 0px) rotate(-5deg); }
+	20% { transform: translate(-3px, 0px) rotate(5deg); }
+	25% { transform: translate(0px, 0px) rotate(-5deg); }
+	30% { transform: translate(0px, 2px) rotate(5deg); }
+	35% { transform: translate(0px, 0px) rotate(-5deg); }
+	40% { transform: translate(1px, -1px) rotate(5deg); }
+	45% { transform: translate(0px, 0px) rotate(-5deg); }
+	100% { transform: translate(-1px, 2px) rotate(5deg); }
+}
+
+@-webkit-keyframes shake {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	5% { -webkit-transform: translate(0px, 0px) rotate(-5deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(5deg); }
+	15% { -webkit-transform: translate(0px, 0px) rotate(-5deg); }
+	15% { -webkit-transform: translate(-3px, 0px) rotate(5deg); }
+	20% { -webkit-transform: translate(0px, 0px) rotate(-5deg); }
+	25% { -webkit-transform: translate(0px, 2px) rotate(5deg); }
+	30% { -webkit-transform: translate(0px, 0px) rotate(-5deg); }
+	35% { -webkit-transform: translate(1px, -1px) rotate(5deg); }
+	40% { -webkit-transform: translate(0px, 0px) rotate(-5deg); }
+	45% { -webkit-transform: translate(-1px, 2px) rotate(5deg); }
+	100% { -webkit-transform: translate(0px, 0px) rotate(-5deg); }
+}
+
+@keyframes shake-and-grow {
 	0% { transform: translate(2px, 1px) rotate(0deg); }
 	3% { transform: translate(0px, 0px) rotate(-5deg); }
 	6% { transform: translate(-1px, -2px) rotate(5deg); }
@@ -67,7 +96,7 @@ body{
 	100% { transform: translate(0px, 0px) rotate(360deg) scale(2); }
 }
 
-@-webkit-keyframes shake {
+@-webkit-keyframes shake-and-grow {
 	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
 	3% { -webkit-transform: translate(0px, 0px) rotate(-5deg); }
 	6% { -webkit-transform: translate(-1px, -2px) rotate(5deg); }
